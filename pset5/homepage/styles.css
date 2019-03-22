@@ -1,0 +1,64 @@
+body 
+{
+    background-color: lightblue;
+    text-align: center;
+}
+
+nav ul
+{
+    background: bisque; 
+    -webkit-text-fill-color: aliceblue;
+}
+
+h3
+{
+
+}
+
+p
+{
+    font-size: large; 
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.item
+{
+    margin: 3% 10% 20% 10%;
+}
+
+#homepageImg
+{
+    max-width:60%;
+    height:auto;
+    border-radius: 15px;
+}
+
+.card
+{
+    left: 10% !important;
+    text-align: left;
+    width: 18rem;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
